@@ -35,6 +35,9 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 
+  /*===== sombras =====*/
+  --sombra-box: 0 2px 4px rgba(0, 0, 0, 0.1);
+
   /*===== z index =====*/
   --z-normal: 1;
   --z-tooltip: 10;
