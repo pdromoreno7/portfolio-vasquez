@@ -49,7 +49,12 @@ function scrollHeader() {
 }
 window.addEventListener("scroll", scrollHeader);
 /*===== SHOW SCROLL TOP =====*/
-
+function scrollTop() {
+  const scrollTop = document.getElementById("scroll-top");
+  if (this.scrollY >= 560) scroll.classList.add("show-top");
+  else scroll.classList.remove("show-top");
+}
+window.addEventListener("scroll", scrollTop);
 /*===== MIXITUP FILTER PORTFOLIO =====*/
 
 /* Link active portfolio */
