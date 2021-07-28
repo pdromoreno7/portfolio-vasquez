@@ -1,6 +1,7 @@
 @import url(globales.css);
 @import url(header.css);
 @import url(home.css);
+@import url(qualification.css);
 
 /*===== LAYOUT =====*/
 .bd-container {
@@ -44,7 +45,7 @@
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--secundario-color);
   color: var(--first-color-lighten);
   padding: 0.75rem 1rem;
   border-radius: 0.25rem;
@@ -54,7 +55,7 @@
   background-color: var(--first-color-dark);
 }
 .button-light {
-  background-color: var(--first-color-light);
+  background-color: var(--secundario-color);
 }
 
 /*===== ABOUT =====*/
@@ -77,7 +78,6 @@
   width: 220px;
   border-radius: 0.5rem;
 }
-/*===== QUALIFICATION =====*/
 
 /*===== SERVICES =====*/
 

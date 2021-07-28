@@ -34,10 +34,11 @@
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 30px;
 }
 .home__img img {
-  width: 240px;
+  width: 230px;
+  border-radius: 50%;
 }
 .home__social {
   display: flex;
