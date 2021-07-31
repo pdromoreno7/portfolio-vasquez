@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ===== SWIPER CSS ===== -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!-- ===== BOX ICONS ===== -->
     <link
@@ -41,7 +41,8 @@
               <a href="#services" class="nav__link">Services</a>
             </li>
             <li class="nav__item">
-              <a href="#portafolio" class="nav__link">Portafolio</a>
+              <!-- <a href="#portfolio" class="nav__link">Portafolio</a> -->
+              <a href="#portafolio" class="nav__link">Portfolio</a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">Contactame</a>
@@ -260,6 +261,8 @@
       </section>
 
       <!--===== PORTFOLIO =====-->
+      <div class="portafolio"></div>
+
       <section class="portfolio section bd-container">
         <span class="section-subtitle">Mis trabajos recientes</span>
         <h2 class="section-title">Portfolio</h2>
@@ -363,8 +366,98 @@
       </section>
 
       <!--===== TESTIMONIAL =====-->
+      <section class="testimonial section bd-container">
+        <span class="section-subtitle">My client saying</span>
+        <h2 class="section-title">Testimonial</h2>
+
+        <div class="testimonial__container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial__content swiper-slide">
+              <img
+                src="assets/img/testimonial1.jpg"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__title">Ruperto</h3>
+              <span class="testimonial__client">Client</span>
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                consectetur natus esse, veniam quaerat nam inventore totam
+              </p>
+            </div>
+            <div class="testimonial__content swiper-slide">
+              <img
+                src="assets/img/testimonial2.jpg"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__title">Ruperta</h3>
+              <span class="testimonial__client">Client</span>
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                consectetur natus esse, veniam quaerat nam inventore totam
+              </p>
+            </div>
+            <div class="testimonial__content swiper-slide">
+              <img
+                src="assets/img/testimonial3.jpg"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__title">Ernesto</h3>
+              <span class="testimonial__client">Client</span>
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                consectetur natus esse, veniam quaerat nam inventore totam
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--===== CONTACTME =====-->
+      <section class="contact section bd-container id" id="contact">
+        <span class="section-subtitle">Para proyectos</span>
+        <h2 class="section-title">Contactame</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__content bd-grid">
+            <div class="contact__box">
+              <i class="bx bx-home contact__icon"></i>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__description">#123 Bogota - Colombia</span>
+            </div>
+            <div class="contact__box">
+              <i class="bx bx-phone contact__icon"></i>
+              <h3 class="contact__title">Phone</h3>
+              <span class="contact__description">310236784</span>
+            </div>
+            <div class="contact__box">
+              <i class="bx bx-envelope contact__icon"></i>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__description"
+                >cristianmancitiforever@citi.com</span
+              >
+            </div>
+            <div class="contact__box">
+              <i class="bx bx-chat contact__icon"></i>
+              <h3 class="contact__title">Chat</h3>
+              <div>
+                <a href="#" class="contact__social">
+                  <i class="bx bxl-whatsapp-square"></i>
+                </a>
+                <a href="#" class="contact__social">
+                  <i class="bx bxl-telegram"></i>
+                </a>
+                <a href="#" class="contact__social">
+                  <i class="bx bxl-messenger"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--===== FOOTER =====-->
@@ -374,7 +467,7 @@
     <script src="assets/js/mixitup.min.js"></script>
 
     <!-- ===== SWIPER JS ===== -->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- ===== GSAP ===== -->
     <script src=""></script>
