@@ -105,3 +105,21 @@
 }
 
 /*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 576px) {
+  .home__img img {
+    width: 330px;
+  }
+  .about__container,
+  .qualification__container,
+  .services__container,
+  .portfolio__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact__form {
+    width: 450px;
+    justify-self: center;
+  }
+  .nav__link {
+    color: var(--first-color-lighten);
+  }
+}
