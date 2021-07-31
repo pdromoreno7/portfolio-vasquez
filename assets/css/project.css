@@ -1,6 +1,6 @@
 /*===== PROJECT IN MIND =====*/
 .project__container {
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
   background-color: var(--secundario-color);
   color: var(--first-color-lighten);
   border-radius: 0.5rem;
